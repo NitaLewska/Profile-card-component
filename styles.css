@@ -28,9 +28,9 @@ section {
     text-align: center;
     color:rgb(34, 34, 34);
     border-radius: 15px;
-    -webkit-box-shadow: 3px 3px 17px 0px rgba(50, 50, 50, 0.2);
-    -moz-box-shadow:    3px 3px 17px 0px rgba(50, 50, 50, 0.2);
-    box-shadow:         3px 3px 17px 0px rgba(50, 50, 50, 0.2);
+    -webkit-box-shadow: 3px 10px 20px 0px rgba(50, 50, 50, 0.23);
+    -moz-box-shadow:    3px 10px 20px 0px rgba(50, 50, 50, 0.23);
+    box-shadow:         3px 10px 20px 0px rgba(50, 50, 50, 0.23);
 }
 
 .section_header{
