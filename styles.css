@@ -25,6 +25,10 @@ section {
     height: 375px;
     text-align: center;
     color:rgb(34, 34, 34);
+    border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 21px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow:    3px 3px 21px 0px rgba(50, 50, 50, 0.2);
+    box-shadow:         3px 3px 21px 0px rgba(50, 50, 50, 0.2);
 }
 
 .section_header{
