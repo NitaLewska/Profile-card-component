@@ -39,13 +39,11 @@ section {
 }
 
 .section_header img{
-    width: 100px;
-    height: 100px;
+    width: 108px;
+    height: 108px;
     margin-bottom: -48px;
     border-radius: 50%;
     border: 5px solid white;
-    
-    
 }
 
 .section_main{
@@ -54,7 +52,7 @@ section {
 }
 
 .name {
-    padding-top: 65px;
+    padding-top: 70px;
     font-weight: 700;
     text-align: center;
 }
