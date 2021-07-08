@@ -9,11 +9,13 @@ html {
 }
 
 body{
+    --screen :50vw;
+    --left: calc(-978px + 45vw);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(images/bg-pattern-top.svg) -20vw -70vh, url(images/bg-pattern-bottom.svg) 50vw 40vh,  hsl(185, 75%, 39%);;
+    background: url(images/bg-pattern-top.svg) var(--left) -80vh, url(images/bg-pattern-bottom.svg) 50vw 40vh,  hsl(185, 75%, 39%);;
     background-repeat: no-repeat;
 
 }
@@ -86,5 +88,6 @@ section {
     letter-spacing: 2px;
     color:hsl(0, 0%, 61%)
 }
+
 
 
