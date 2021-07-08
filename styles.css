@@ -9,11 +9,13 @@ html {
 }
 
 body{
+    --bgpositionx: calc(47vw - 984px);
+    --bgpositiony: calc(70vh - 984px);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(images/bg-pattern-top.svg) -20vw -70vh, url(images/bg-pattern-bottom.svg) 50vw 50vh,  hsl(185, 75%, 39%);;
+    background: url(images/bg-pattern-top.svg) var(--bgpositionx) var(--bgpositiony), url(images/bg-pattern-bottom.svg) 50vw 50vh,  hsl(185, 75%, 39%);;
     background-repeat: no-repeat;
 
 }
